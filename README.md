@@ -88,7 +88,7 @@ Menyadari pentingnya keragaman bahasa, kami berfokus untuk meningkatkan kemampua
 
 Metode standar untuk meningkatkan kosakata biasanya melibatkan pengembangan tokenizer baru dan mengintegrasikannya dengan yang sudah ada. Teknik ini telah menunjukkan hasil yang mengesankan dalam proyek-proyek seperti Chinese-LLaMA dan Open-Hathi. Keefektifan strategi ini dapat dikaitkan dengan perbedaan linguistik yang signifikan antara bahasa-bahasa seperti bahasa Mandarin dan Hindi jika dibandingkan dengan bahasa Inggris. Sebaliknya, bahasa Indonesia menggunakan aksara Latin yang sama dengan bahasa Inggris, yang menghadirkan tantangan yang berbeda.
 
-
+Kami menguji metode tradisional, serta pendekatan baru di mana kami memasukkan n kata teratas (bukan token) dari kosakata bahasa Indonesia. Kami menemukan bahwa dengan pendekatan baru, kami dapat mencapai skor kesuburan yang lebih baik dengan menambahkan sekitar 3000 kosakata baru. Menambahkan lebih dari 3000 kata tidak secara signifikan meningkatkan skor kesuburan lebih lanjut, tetapi meningkatkan ukuran matriks embedding, yang mengarah ke waktu pelatihan yang lebih lama.
 
 &nbsp;
 
