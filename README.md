@@ -8,6 +8,16 @@ Komodo-7B-Base adalah large language model yang dikembangkan melalui pelatihan a
 
 **Disclaimer**: Ini bukan model instruction-tuned , fine-tuning diperlukan untuk tugas downstream. Sebagai contoh, orang biasanya menggunakan dataset Alpaca untuk penyempurnaan lebih lanjut di atas model Llama-2-7B-Base. Oleh karena itu, tidak ada template yang cepat untuk model ini.
 
+&nbsp;
+
+**Model Details**
+
+<div align="center">
+    <img src="./gambar-petunjuk/ss_komodo_7b_base_001.png" alt="ss_komodo_7b_base_001" style="display: block; margin: 0 auto;">
+</div> 
+
+&nbsp;
+
 | **Organization** | **Model Name**             | **Indo MMLU** | **ID-EN** | **XCOPA-ID** | **Intent Classification** | **Colloquial Detection** | **NusaX-Senti** | **ID-Hate Speech** | **TydiQA-ID** |
 |------------------|----------------------------|---------------|-----------|--------------|---------------------------|--------------------------|-----------------|--------------------|---------------|
 | OpenAI           | GPT-3.5-turbo-0301         | 51.3          | 64.5      | 70.0         | 82.0                      | 64.1                     | 47.2            | 68.0               | 85.3          |
