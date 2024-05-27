@@ -72,13 +72,33 @@ Kemudian, Anda bisa mencoba menggunakan model ini.
 
 Komodo-7B adalah model dekoder yang menggunakan arsitektur Llama-2.
 
- **Parameter**                    | **Komodo\-7B** 
-----------------------------------|----------------
- Layers                           | 32             
- d\_model                         | 4096           
- head\_dim                        | 32             
- Vocabulary                       | 35008          
- Sequence Length                  | 4096           
+<table>
+  <tr>
+    <th style="width: 50%;">Parameter</th>
+    <th style="width: 50%;">Komodo-7B</th>
+  </tr>
+  <tr>
+    <td>Layers</td>
+    <td>32</td>
+  </tr>
+  <tr>
+    <td>d_model</td>
+    <td>4096</td>
+  </tr>
+  <tr>
+    <td>head_dim</td>
+    <td>32</td>
+  </tr>
+  <tr>
+    <td>Vocabulary</td>
+    <td>35008</td>
+  </tr>
+  <tr>
+    <td>Sequence Length</td>
+    <td>4096</td>
+  </tr>
+</table>
+     
 
 
 
