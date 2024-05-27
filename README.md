@@ -69,11 +69,23 @@ Kemudian, Anda bisa mencoba menggunakan model ini.
 
 ### Technical Specifications
 **Model Architecture and Objective**<br />
+
 Komodo-7B is a decoder model using the Llama-2 architecture.
 
+| **Parameter**   | **Komodo-7B** |
+|-----------------|---------------|
+| Layers          | 32            |
+| d_model         | 4096          |
+| head_dim        | 32            |
+| Vocabulary      | 35008         |
+| Sequence Length | 4096          |
 
 
+&nbsp;
 
+&nbsp;
+
+&nbsp;
 
 | **Organization** | **Model Name**             | **Indo MMLU** | **ID-EN** | **XCOPA-ID** | **Intent Classification** | **Colloquial Detection** | **NusaX-Senti** | **ID-Hate Speech** | **TydiQA-ID** |
 |------------------|----------------------------|---------------|-----------|--------------|---------------------------|--------------------------|-----------------|--------------------|---------------|
