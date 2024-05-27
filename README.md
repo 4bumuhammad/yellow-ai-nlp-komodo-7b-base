@@ -27,6 +27,12 @@ Komodo-7B-Base adalah large language model yang dikembangkan melalui pelatihan a
 
 Rincian lebih lanjut dapat ditemukan dalam makalah kami https://arxiv.org/abs/2403.09362
 
+- Developed by: Yellow.ai
+- Model type: Decoder
+- Languages: English, Indonesian, Acehnese, Balinese, Banjarese, Buginese, Madurese, Minangkabau, Javanese, Dayak Ngaju, Sundanese, Toba Batak, Lampungnese
+
+
+&nbsp;
 
 | **Organization** | **Model Name**             | **Indo MMLU** | **ID-EN** | **XCOPA-ID** | **Intent Classification** | **Colloquial Detection** | **NusaX-Senti** | **ID-Hate Speech** | **TydiQA-ID** |
 |------------------|----------------------------|---------------|-----------|--------------|---------------------------|--------------------------|-----------------|--------------------|---------------|
