@@ -1,6 +1,6 @@
 # Yellow-AI-NPL / komodo-7b-base
 
-Sumber asli : 
+Original source : 
 <pre>https://huggingface.co/Yellow-AI-NLP/komodo-7b-base</pre>
 
 ---
