@@ -160,7 +160,13 @@ Harap diperhatikan bahwa nilai pembandingan di bawah ini didasarkan pada Model S
             <a href="https://www.linkedin.com/in/louisowen/">Louis Owen</a>
         </li>
         <li>
-            <a href="https://www.linkedin.com/in/louisowen/">Vishesh Tripathi</a>
+            <a href="https://www.linkedin.com/in/vishesh-tripathi/">Vishesh Tripathi</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/akanyaani/">Abhay Kumar</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/biddwan-ahmed-917333126/">Biddwan Ahmed</a>
         </li>
     </ul>
 </div>
