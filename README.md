@@ -119,5 +119,11 @@ Harap diperhatikan bahwa nilai pembandingan di bawah ini didasarkan pada Model S
  Alibaba          | Qwen-1.5-7B-chat           | 40.0          | 56.0      | 29.5         | 85.0                      | 41.8                     | 58.7            | 63.9               | 51.22         | 29.0        | 50.6        
  Yellow.ai        | Komodo-7B-Instruct         | 43.2          | 90.5      | 79.6         | 84.0                      | 73.6                     | 79.3            | 56.2               | 90.3          | 43.0        | 71.1        
 
+&nbsp;
 
+<div align="center">
+    <img src="./gambar-petunjuk/ss_komodo_7b_base_002.png" alt="ss_komodo_7b_base_002" style="display: block; margin: 0 auto;">
+</div> 
+
+&nbsp;
 
