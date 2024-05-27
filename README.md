@@ -74,7 +74,7 @@ Komodo-7B adalah model dekoder yang menggunakan arsitektur Llama-2.
 
 <table>
   <tr>
-    <th style="width: 100px;">Parameter</th>
+    <th style="width: 200px;">Parameter</th>
     <th>Komodo-7B</th>
   </tr>
   <tr>
