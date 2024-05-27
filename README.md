@@ -54,6 +54,16 @@ Setelah Anda masuk, Anda dapat mulai mengunduh dan memuat model & tokenizer. Kam
     model = AutoModelForCausalLM.from_pretrained("Yellow-AI-NLP/komodo-7b-base",trust_remote_code=True)
     model = model.to(device)
 ```
+Kemudian, Anda bisa mencoba menggunakan model ini.
+```bash
+    full_prompt = "Candi borobudur adalah"
+
+    tokens = tokenizer(full_prompt, return_tensors="pt").to(device)
+    output = model.generate(tokens["input_ids"], eos_token_id=tokenizer.eos_token_id)
+
+    print(tokenizer.decode(output[0], skip_special_tokens=True))
+    # Candi borobudur adalah candi yang terletak di Magelang, Jawa Tengah.
+```
 
 &nbsp;
 
