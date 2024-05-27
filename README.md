@@ -127,3 +127,10 @@ Harap diperhatikan bahwa nilai pembandingan di bawah ini didasarkan pada Model S
 
 &nbsp;
 
+**Infrastructure**
+
+ **Training Details** | **Komodo-7B** 
+----------------------|---------------
+ AWS EC2 p4d.24xlarge | 1 instances   
+ Nvidia A100 40GB GPU | 8             
+ Training Duration    | 300 hours     
