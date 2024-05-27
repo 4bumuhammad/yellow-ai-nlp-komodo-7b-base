@@ -70,7 +70,7 @@ Kemudian, Anda bisa mencoba menggunakan model ini.
 ### Technical Specifications
 **Model Architecture and Objective**<br />
 
-Komodo-7B is a decoder model using the Llama-2 architecture.
+Komodo-7B adalah model dekoder yang menggunakan arsitektur Llama-2.
 
  **Parameter**   | **Komodo\-7B** 
 -----------------|----------------
