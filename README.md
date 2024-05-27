@@ -1,5 +1,10 @@
 # Yellow-AI-NPL / komodo-7b-base
 
+Sumber asli : 
+<pre>https://huggingface.co/Yellow-AI-NLP/komodo-7b-base</pre>
+
+---
+
 &nbsp;
 
 ## Model Card for Komodo-7B-Base
