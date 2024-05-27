@@ -42,6 +42,9 @@ Karena ini adalah model yang terjaga keamanannya, Anda harus masuk ke akun HF An
     huggingface_hub.login("YOUR_HF_TOKEN")
 ```
 
+Setelah Anda masuk, Anda dapat mulai mengunduh dan memuat model & tokenizer. Kami menulis fungsi decoding khusus untuk Komodo-7B, oleh karena itu kami perlu memberikan trust_remote_code = True. Kode juga dapat bekerja tanpa parameter ini, tetapi proses decoding tidak akan bekerja seperti yang diharapkan.
+
+&nbsp;
 
 | **Organization** | **Model Name**             | **Indo MMLU** | **ID-EN** | **XCOPA-ID** | **Intent Classification** | **Colloquial Detection** | **NusaX-Senti** | **ID-Hate Speech** | **TydiQA-ID** |
 |------------------|----------------------------|---------------|-----------|--------------|---------------------------|--------------------------|-----------------|--------------------|---------------|
