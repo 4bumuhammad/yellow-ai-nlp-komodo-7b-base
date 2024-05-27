@@ -149,3 +149,15 @@ Harap diperhatikan bahwa nilai pembandingan di bawah ini didasarkan pada Model S
         primaryClass={cs.CL}
     }
 ```
+
+&nbsp;
+
+**Model Card Authors**
+
+<div align="left">
+    <ul>
+        <li>
+            <a href="https://github.com/4bumuhammad/documentation-mariadb-replication-proxysql/blob/main/README.md">Louis Owen</a>
+        </li>
+    </ul>
+</div>
