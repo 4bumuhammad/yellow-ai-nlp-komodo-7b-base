@@ -157,7 +157,7 @@ Harap diperhatikan bahwa nilai pembandingan di bawah ini didasarkan pada Model S
 <div align="left">
     <ul>
         <li>
-            <a href="https://github.com/4bumuhammad/documentation-mariadb-replication-proxysql/blob/main/README.md">Louis Owen</a>
+            <a href="https://www.linkedin.com/in/louisowen/">Louis Owen</a>
         </li>
     </ul>
 </div>
