@@ -72,15 +72,21 @@ Kemudian, Anda bisa mencoba menggunakan model ini.
 
 Komodo-7B adalah model dekoder yang menggunakan arsitektur Llama-2.
 
-**Parameter**                               | **Komodo-7B**
---------------------------------------------|--------------
-Layers                                      | 32           
-d_model                                     | 4096         
-head_dim                                    | 32           
-Vocabulary                                  | 35008        
-Sequence Length                             | 4096         
+ **Parameter**   | **Komodo\-7B** 
+-----------------|----------------
+ Layers          | 32             
+ d\_model        | 4096           
+ head\_dim       | 32             
+ Vocabulary      | 35008          
+ Sequence Length | 4096      
 
+&nbsp;
 
+**Tokenizer Details**
+
+Menyadari pentingnya keragaman bahasa, kami berfokus untuk meningkatkan kemampuan model bahasa kami dalam bahasa Indonesia dan bahasa daerah. Untuk mencapai hal ini, kami secara sistematis memperluas kosakata tokenizer dengan mengidentifikasi dan memasukkan sekitar 2.000 kata yang sering digunakan khusus untuk bahasa Indonesia dan 1.000 kata untuk bahasa daerah yang tidak ada dalam model Llama-2.
+
+Metode standar untuk meningkatkan kosakata biasanya melibatkan pengembangan tokenizer baru dan mengintegrasikannya dengan yang sudah ada. Teknik ini telah menunjukkan hasil yang mengesankan dalam proyek-proyek seperti Chinese-LLaMA dan Open-Hathi. Keefektifan strategi ini dapat dikaitkan dengan perbedaan linguistik yang signifikan antara bahasa-bahasa seperti bahasa Mandarin dan Hindi jika dibandingkan dengan bahasa Inggris. Sebaliknya, bahasa Indonesia menggunakan aksara Latin yang sama dengan bahasa Inggris, yang menghadirkan tantangan yang berbeda.
 
 
 
