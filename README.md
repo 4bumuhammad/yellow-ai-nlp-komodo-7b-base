@@ -31,8 +31,17 @@ Rincian lebih lanjut dapat ditemukan dalam makalah kami https://arxiv.org/abs/24
 - **Languages**: English, Indonesian, Acehnese, Balinese, Banjarese, Buginese, Madurese, Minangkabau, Javanese, Dayak Ngaju, Sundanese, Toba Batak, Lampungnese
 - **License**: llama2
 
-
 &nbsp;
+
+**Usage Example**
+
+Karena ini adalah model yang terjaga keamanannya, Anda harus masuk ke akun HF Anda sebelum menggunakan model ini. Di bawah ini adalah salah satu cara untuk melakukannya. Anda bisa mendapatkan Token HF dari profil Anda (Profile -> Settings -> Access Tokens)
+
+```bash
+    import huggingface_hub
+    huggingface_hub.login("YOUR_HF_TOKEN")
+```
+
 
 | **Organization** | **Model Name**             | **Indo MMLU** | **ID-EN** | **XCOPA-ID** | **Intent Classification** | **Colloquial Detection** | **NusaX-Senti** | **ID-Hate Speech** | **TydiQA-ID** |
 |------------------|----------------------------|---------------|-----------|--------------|---------------------------|--------------------------|-----------------|--------------------|---------------|
