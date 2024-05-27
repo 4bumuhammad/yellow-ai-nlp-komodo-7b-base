@@ -72,13 +72,15 @@ Kemudian, Anda bisa mencoba menggunakan model ini.
 
 Komodo-7B is a decoder model using the Llama-2 architecture.
 
-| **Parameter**   | **Komodo-7B** |
-|-----------------|---------------|
-| Layers          | 32            |
-| d_model         | 4096          |
-| head_dim        | 32            |
-| Vocabulary      | 35008         |
-| Sequence Length | 4096          |
+ **Parameter**   | **Komodo\-7B** 
+-----------------|----------------
+ Layers          | 32             
+ d\_model        | 4096           
+ head\_dim       | 32             
+ Vocabulary      | 35008          
+ Sequence Length | 4096           
+
+
 
 
 &nbsp;
