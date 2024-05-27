@@ -23,6 +23,11 @@ Komodo-7B-Base adalah large language model yang dikembangkan melalui pelatihan a
 
 &nbsp;
 
+**Model Description**
+
+Rincian lebih lanjut dapat ditemukan dalam makalah kami https://arxiv.org/abs/2403.09362
+
+
 | **Organization** | **Model Name**             | **Indo MMLU** | **ID-EN** | **XCOPA-ID** | **Intent Classification** | **Colloquial Detection** | **NusaX-Senti** | **ID-Hate Speech** | **TydiQA-ID** |
 |------------------|----------------------------|---------------|-----------|--------------|---------------------------|--------------------------|-----------------|--------------------|---------------|
 | OpenAI           | GPT-3.5-turbo-0301         | 51.3          | 64.5      | 70.0         | 82.0                      | 64.1                     | 47.2            | 68.0               | 85.3          |
