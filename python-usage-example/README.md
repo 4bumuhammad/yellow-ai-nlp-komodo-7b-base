@@ -73,7 +73,7 @@ List of installed packages.
 
 &nbsp;
 
-Code
+Code &#x270F;
 <pre>
     ❯ vim hf-login.py
         . . .
