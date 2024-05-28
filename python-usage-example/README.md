@@ -318,8 +318,39 @@ Check the result files after running the script command
         15 directories, 35 files
 </pre>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
+
+### The alternative of using a model that has been previously downloaded from the repository is applicable.
 
 <pre>
     ❯ du -sch /Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/komodo-7b-base
