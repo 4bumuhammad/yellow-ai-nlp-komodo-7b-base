@@ -48,7 +48,7 @@ List of installed packages.
         charset-normalizer 3.3.2
         filelock           3.14.0
         fsspec             2024.5.0
-        huggingface-hub    0.23.1
+        huggingface-hub    0.23.2
         idna               3.7
         Jinja2             3.1.4
         MarkupSafe         2.1.5
