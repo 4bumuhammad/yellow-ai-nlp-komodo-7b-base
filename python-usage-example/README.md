@@ -133,6 +133,8 @@ Check the result files after running the script command
         0 directories, 1 file
 </pre>
 
+&nbsp;
+
 <pre>
     ❯ python3 model-prompt.py
 
@@ -245,4 +247,72 @@ Check the result files after running the script command
             raise EnvironmentError(
         OSError: We couldn't connect to 'https://huggingface.co' to load this file, couldn't find it in the cached files and it looks like Yellow-AI-NLP/komodo-7b-base is not the path to a directory containing a file named model-00002-of-00006.safetensors.
         Checkout your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+</pre>
+
+&nbsp;
+
+Check the result files after running the script command 
+<pre>
+    ❯ du -sch /Users/powercommerce/.cache/huggingface/
+
+        4.6G    /Users/powercommerce/.cache/huggingface/
+        4.6G    total
+
+
+
+    ❯ tree -L 5 -a /Users/powercommerce/.cache/huggingface/
+
+        /Users/powercommerce/.cache/huggingface/
+        ├── hub
+        │   ├── .locks
+        │   │   └── models--Yellow-AI-NLP--komodo-7b-base
+        │   │       ├── 4042719103f88fda0de89c2eec517182f84c72b7.lock
+        │   │       ├── 451134b2ddc2e78555d1e857518c54b4bdc2e87d.lock
+        │   │       ├── 4e5f6bf6be47297927169b8c633a323b7d247487.lock
+        │   │       ├── 55cd2adb669a966a3ae2f6471c91624080cf37ac.lock
+        │   │       ├── 9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347.lock
+        │   │       ├── b4d09ccdb336e8257764e42d8f5f899f76350f11.lock
+        │   │       ├── b77d1b33a977b8dcb1fb4608f9b1c60bcd3502162dccd3d8d9828e8ba394d3bc.lock
+        │   │       ├── ccbc9b59603b23d56b75274fa6561511f05b7c93.lock
+        │   │       └── ea4b319a6ada650e88bfe34b7d85cd448473198b.lock
+        │   ├── models--Yellow-AI-NLP--komodo-7b-base
+        │   │   ├── .no_exist
+        │   │   │   └── bf2ca08ef273698557ef5cc6a3524b8a71934081
+        │   │   │       └── model.safetensors
+        │   │   ├── blobs
+        │   │   │   ├── 4042719103f88fda0de89c2eec517182f84c72b7
+        │   │   │   ├── 451134b2ddc2e78555d1e857518c54b4bdc2e87d
+        │   │   │   ├── 4e5f6bf6be47297927169b8c633a323b7d247487
+        │   │   │   ├── 55cd2adb669a966a3ae2f6471c91624080cf37ac
+        │   │   │   ├── 9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347
+        │   │   │   ├── b4d09ccdb336e8257764e42d8f5f899f76350f11
+        │   │   │   ├── b77d1b33a977b8dcb1fb4608f9b1c60bcd3502162dccd3d8d9828e8ba394d3bc
+        │   │   │   ├── ccbc9b59603b23d56b75274fa6561511f05b7c93
+        │   │   │   └── ea4b319a6ada650e88bfe34b7d85cd448473198b
+        │   │   ├── refs
+        │   │   │   └── main
+        │   │   └── snapshots
+        │   │       └── bf2ca08ef273698557ef5cc6a3524b8a71934081
+        │   │           ├── added_tokens.json -> ../../blobs/b4d09ccdb336e8257764e42d8f5f899f76350f11
+        │   │           ├── bahasallamatokenizer.py -> ../../blobs/4042719103f88fda0de89c2eec517182f84c72b7
+        │   │           ├── config.json -> ../../blobs/55cd2adb669a966a3ae2f6471c91624080cf37ac
+        │   │           ├── model-00001-of-00006.safetensors -> ../../blobs/b77d1b33a977b8dcb1fb4608f9b1c60bcd3502162dccd3d8d9828e8ba394d3bc
+        │   │           ├── model.safetensors.index.json -> ../../blobs/ea4b319a6ada650e88bfe34b7d85cd448473198b
+        │   │           ├── special_tokens_map.json -> ../../blobs/451134b2ddc2e78555d1e857518c54b4bdc2e87d
+        │   │           ├── tokenizer.json -> ../../blobs/4e5f6bf6be47297927169b8c633a323b7d247487
+        │   │           ├── tokenizer.model -> ../../blobs/9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347
+        │   │           └── tokenizer_config.json -> ../../blobs/ccbc9b59603b23d56b75274fa6561511f05b7c93
+        │   └── version.txt
+        ├── modules
+        │   ├── __init__.py
+        │   └── transformers_modules
+        │       ├── Yellow-AI-NLP
+        │       │   ├── __init__.py
+        │       │   └── komodo-7b-base
+        │       │       ├── __init__.py
+        │       │       └── bf2ca08ef273698557ef5cc6a3524b8a71934081
+        │       └── __init__.py
+        └── token
+
+        15 directories, 35 files
 </pre>
