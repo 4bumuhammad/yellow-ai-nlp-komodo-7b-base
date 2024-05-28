@@ -1,4 +1,4 @@
-# Python : usage example 
+# &#127937; Python : usage example 
 
 &nbsp;
 
@@ -70,3 +70,9 @@ List of installed packages.
         typing_extensions  4.12.0
         urllib3            2.2.1
 </pre>
+
+&nbsp;
+
+&nbsp;
+
+## &#x1F3C3; Run
