@@ -19,7 +19,7 @@ Creating Directories and File Structures
     ❯ vim requirements.txt
 
         huggingface-hub
-        orch==2.2.1
+        torch==2.2.1
         transformers==4.40.2
 </pre>
 
