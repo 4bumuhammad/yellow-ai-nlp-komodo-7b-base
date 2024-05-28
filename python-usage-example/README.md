@@ -417,10 +417,10 @@ Change the python code to use the downloaded model and specify it to be in the l
 
         device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
-        model_dir = "/Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/komodo-7b-base"
+        model_dir = "/Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/komodo-7b-base"      # perubahan di bagian ini.
 
-        tokenizer = AutoTokenizer.from_pretrained(model_dir, local_files_only=True)
-        model = AutoModelForCausalLM.from_pretrained(model_dir, local_files_only=True)
+        tokenizer = AutoTokenizer.from_pretrained(model_dir, local_files_only=True)              # perubahan di bagian ini.
+        model = AutoModelForCausalLM.from_pretrained(model_dir, local_files_only=True)           # perubahan di bagian ini.
         model = model.to(device)
 
         # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
