@@ -170,3 +170,26 @@ Harap diperhatikan bahwa nilai pembandingan di bawah ini didasarkan pada Model S
         </li>
     </ul>
 </div>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+---
+
+## &#x1F6A9; Python usage example
+<div align="left">
+    <ul>
+        <li>
+            <h3><a href="https://github.com/4bumuhammad/yellow-ai-nlp-komodo-7b-base/tree/main/python-usage-example">Link : python-usage-example</a></h3>
+        </li>
+    </ul>
+</div>
