@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
-model_dir = "/Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/komodo-7b-base"
+model_dir = "/Volumes/SEAGATE R/LLM_Download/komodo-7b-base"
 
 # tokenizer = AutoTokenizer.from_pretrained("Yellow-AI-NLP/komodo-7b-base",trust_remote_code=True,force_download=True)
 tokenizer = AutoTokenizer.from_pretrained(model_dir, local_files_only=True)
