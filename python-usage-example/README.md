@@ -75,4 +75,17 @@ List of installed packages.
 
 &nbsp;
 
+<pre>
+    ❯ vim hf-login.py
+        . . .
+
+        import huggingface_hub
+
+        huggingface_hub.login("CREDENTIAL_TOKEN") 
+</pre>
+
+<pre>
+</pre>
+
 ## &#x1F3C3; Run
+
