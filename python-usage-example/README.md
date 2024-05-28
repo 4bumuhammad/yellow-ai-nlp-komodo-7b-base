@@ -23,8 +23,6 @@ Creating Directories and File Structures
         transformers==4.40.2
 </pre>
 
-&nbsp;
-
 <pre>
     ❯ pwd
         /Users/.../&lt;project-name&gt;
