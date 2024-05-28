@@ -9,9 +9,22 @@ Please be sure to agree to the terms of access to this repository.
 
 &nbsp;
 
+---
+
 ## &#x1F530; Begin
 
 Creating Directories and File Structures
+
+<pre>
+    ❯ vim requirements.txt
+
+        huggingface-hub
+        orch==2.2.1
+        transformers==4.40.2
+</pre>
+
+&nbsp;
+
 <pre>
     ❯ pwd
         /Users/.../&lt;project-name&gt;
