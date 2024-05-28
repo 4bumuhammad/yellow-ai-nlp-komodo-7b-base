@@ -352,6 +352,28 @@ Check the result files after running the script command
 
 ### The alternative of using a model that has been previously downloaded from the repository is applicable.
 
+The following is the list of files after successfully downloading all from the repository's original source
+<pre>
+    ❯ ls -lah komodo-7b-base | awk '!/^d/ && $9 != "." && $9 != ".." {printf "%-10s %s\n", $5, $9}'
+            
+        1.5K       .gitattributes.txt
+        8.4K       README.md
+        57K        added_tokens.json
+        16K        bahasallamatokenizer.py
+        711B       config.json
+        4.6G       model-00001-of-00006.safetensors
+        4.5G       model-00002-of-00006.safetensors
+        4.5G       model-00003-of-00006.safetensors
+        4.5G       model-00004-of-00006.safetensors
+        4.5G       model-00005-of-00006.safetensors
+        2.5G       model-00006-of-00006.safetensors
+        23K        model.safetensors.index.json
+        414B       special_tokens_map.json
+        2.3M       tokenizer.json
+        488K       tokenizer.model
+        507K       tokenizer_config.json
+</pre>
+
 <pre>
     ❯ du -sch /Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/komodo-7b-base
 
@@ -383,6 +405,38 @@ Check the result files after running the script command
         0 directories, 16 files        
 </pre>
 
+&nbsp;
+
+Change the python code to use the downloaded model and specify it to be in the local directory.
+<pre>
+    ❯ vim model-prompt.py
+
+        . . .
+        import torch
+        from transformers import AutoTokenizer, AutoModelForCausalLM
+
+        device = "cuda:0" if torch.cuda.is_available() else "cpu"
+
+        model_dir = "/Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/komodo-7b-base"
+
+        tokenizer = AutoTokenizer.from_pretrained(model_dir, local_files_only=True)
+        model = AutoModelForCausalLM.from_pretrained(model_dir, local_files_only=True)
+        model = model.to(device)
+
+        # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+        full_prompt = "Candi borobudur adalah"
+
+        tokens = tokenizer(full_prompt, return_tensors="pt").to(device)
+        output = model.generate(tokens["input_ids"], eos_token_id=tokenizer.eos_token_id)
+
+        print(tokenizer.decode(output[0], skip_special_tokens=True))
+        # Candi borobudur adalah candi yang terletak di Magelang, Jawa Tengah.
+</pre>
+
+&nbsp;
+
+**Re-run of the code update.**
 <pre>
     ❯ python3 model-prompt.py
 
@@ -393,3 +447,5 @@ Check the result files after running the script command
 
             . . .
 </pre>
+
+&nbsp;
