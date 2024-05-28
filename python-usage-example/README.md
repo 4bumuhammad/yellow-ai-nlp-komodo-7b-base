@@ -109,3 +109,27 @@ Code &#x270E;
 
 ## &#x1F3C3; Run
 
+<pre>
+    ❯ python3 hf-login.py
+
+        The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+        Token is valid (permission: fineGrained).
+        Your token has been saved to /Users/powercommerce/.cache/huggingface/token
+        Login successful
+</pre>
+
+&nbsp;
+
+Check the result files after running the script command 
+<pre>
+    ❯ du -sch /Users/powercommerce/.cache/huggingface/
+        4.0K    /Users/powercommerce/.cache/huggingface/
+        4.0K    total
+
+    ❯ tree -L 5 -a /Users/powercommerce/.cache/huggingface/
+        /Users/powercommerce/.cache/huggingface/
+        └── token
+
+        0 directories, 1 file
+</pre>
+
