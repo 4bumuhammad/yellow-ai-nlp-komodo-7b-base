@@ -81,7 +81,7 @@ List of installed packages.
 
         import huggingface_hub
 
-        huggingface_hub.login("CREDENTIAL_TOKEN") 
+        huggingface_hub.login("&#x2774;CREDENTIAL_TOKEN&#x2775;") 
 </pre>
 
 <pre>
