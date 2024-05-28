@@ -38,6 +38,9 @@ Creating Directories and File Structures
     ❯ pip install --no-cache-dir -r requirements.txt
 </pre>
 
+&nbsp;
+
+List of installed packages.
 <pre>
     ❯ pip list
 
