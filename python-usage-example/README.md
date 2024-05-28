@@ -317,3 +317,48 @@ Check the result files after running the script command
 
         15 directories, 35 files
 </pre>
+
+
+---
+
+<pre>
+    ❯ du -sch /Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/komodo-7b-base
+
+        25G    /Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/komodo-7b-base
+        25G    total
+
+
+
+    ❯ tree -L 5 -a /Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/komodo-7b-base
+
+        /Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/komodo-7b-base
+        ├── .gitattributes.txt
+        ├── README.md
+        ├── added_tokens.json
+        ├── bahasallamatokenizer.py
+        ├── config.json
+        ├── model-00001-of-00006.safetensors
+        ├── model-00002-of-00006.safetensors
+        ├── model-00003-of-00006.safetensors
+        ├── model-00004-of-00006.safetensors
+        ├── model-00005-of-00006.safetensors
+        ├── model-00006-of-00006.safetensors
+        ├── model.safetensors.index.json
+        ├── special_tokens_map.json
+        ├── tokenizer.json
+        ├── tokenizer.model
+        └── tokenizer_config.json
+
+        0 directories, 16 files        
+</pre>
+
+<pre>
+    ❯ python3 model-prompt.py
+
+        Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+        Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [01:26<00:00, 14.41s/it]
+        /Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/venv/lib/python3.10/site-packages/transformers/generation/utils.py:1141: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+        warnings.warn(
+
+            . . .
+</pre>
