@@ -2,6 +2,10 @@
 
 &nbsp;
 
+<div align="center">
+    <img src="../gambar-petunjuk/ss_komodo_7b_base_003.png" alt="ss_komodo_7b_base_003" style="display: block; margin: 0 auto;">
+</div> 
+
 &nbsp;
 
 ## &#x1F530; Begin
