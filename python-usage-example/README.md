@@ -452,11 +452,8 @@ Change the python code to use the downloaded model and specify it to be in the l
     ❯ python3 model-prompt.py
 
         Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-        Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [01:26<00:00, 14.41s/it]
+        Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [18:11<00:00, 181.85s/it]
         /Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/venv/lib/python3.10/site-packages/transformers/generation/utils.py:1141: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
         warnings.warn(
-
-            . . .
-</pre>
-
+        Candi borobuduradalah candiyangterletak di Magelang,JawaTengah.</pre>
 &nbsp;
