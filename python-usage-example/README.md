@@ -355,6 +355,10 @@ Check the result files after running the script command
 Download : 
 <pre>https://huggingface.co/Yellow-AI-NLP/komodo-7b-base/tree/main</pre>
 
+<div align="center">
+    <img src="../gambar-petunjuk/ss_komodo_7b_base_004.png" alt="ss_komodo_7b_base_004" style="display: block; margin: 0 auto;">
+</div> 
+
 &nbsp;
 
 &nbsp;
