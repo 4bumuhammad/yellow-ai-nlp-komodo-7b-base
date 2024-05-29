@@ -448,7 +448,7 @@ Change the python code to use the downloaded model and specify it to be in the l
 
 &nbsp;
 
-**Re-run of the code update.**
+**&#x1F525; Re-run of the code update.**
 <pre>
     ❯ python3 model-prompt.py
 
