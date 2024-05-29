@@ -252,7 +252,7 @@ Check the result files after running the script command &#x1F50D;
 
 &nbsp;
 
-Check the result files after running the script command 
+Check the result files after running the script command &#x1F50D;
 <pre>
     ❯ du -sch /Users/powercommerce/.cache/huggingface/
 
@@ -385,6 +385,7 @@ The following is the list of files after successfully downloading all from the r
         507K       tokenizer_config.json
 </pre>
 
+Check the files &#x1F50D;
 <pre>
     ❯ du -sch /Users/powercommerce/Documents/test/from-github-all/yellow-ai-nlp-komodo-7b-base/python-usage-example/komodo-7b-base
 
