@@ -135,7 +135,7 @@ Check the result files after running the script command &#x1F50D;
 
 &nbsp;
 
-Failed to run the model download process &#x274C;
+**Failed to run the model download process** &#x274C;
 <pre>
     ❯ python3 model-prompt.py
 
