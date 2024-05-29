@@ -120,7 +120,7 @@ Code &#x270E;
 
 &nbsp;
 
-Check the result files after running the script command 
+Check the result files after running the script command &#x1F50D;
 <pre>
     ❯ du -sch /Users/powercommerce/.cache/huggingface/
         4.0K    /Users/powercommerce/.cache/huggingface/
