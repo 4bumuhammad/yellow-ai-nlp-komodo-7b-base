@@ -470,6 +470,8 @@ Change the python code to use the downloaded model and specify it to be in the l
 
 &nbsp;
 
+&#x2705; Succeeded in getting the output, but it took a very long time to run with low specifications on the user's computer. Therefore, it is highly recommended to use more up-to-date and powerful device specifications. 
+
 &nbsp;
 
 &nbsp;
