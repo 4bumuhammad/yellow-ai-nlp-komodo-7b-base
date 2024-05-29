@@ -334,6 +334,7 @@ Check the result files after running the script command &#x1F50D;
 
 <div align="center">
     <img src="../gambar-petunjuk/great_circle_campground.png" alt="great_circle_campground" style="display: block; margin: 0 auto;">
+    <h2>Another path to glory</h2>
 </div> 
 
 &nbsp;
