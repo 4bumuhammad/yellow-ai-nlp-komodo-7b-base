@@ -458,3 +458,33 @@ Change the python code to use the downloaded model and specify it to be in the l
         warnings.warn(
         Candi borobuduradalah candiyangterletak di Magelang,JawaTengah.</pre>
 &nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+---
+
+&nbsp;
+
+<div align="center">
+    <img src="../gambar-petunjuk/well_done.png" alt="well_done" style="display: block; margin: 0 auto;">
+</div> 
+
+&nbsp;
+
+---
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
