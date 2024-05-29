@@ -352,7 +352,7 @@ Check the result files after running the script command &#x1F50D;
 
 ### The alternative of using a model that has been previously downloaded from the repository is applicable.
 
-Download each of the following files : 
+&#x1F4C1; Download each of the following files : 
 <pre>https://huggingface.co/Yellow-AI-NLP/komodo-7b-base/tree/main</pre>
 
 <div align="center">
